@@ -8,3 +8,5 @@ namespace TrybeHotel.Models
         public int CityId { get; set; }
     }
 }
+
+// iniciando projeto

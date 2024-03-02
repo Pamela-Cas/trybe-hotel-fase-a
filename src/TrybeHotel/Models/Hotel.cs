@@ -11,7 +11,6 @@ public class Hotel
   public string? Address { get; set; }
   [ForeignKey("CityId")]
   public int CityId { get; set; }
-
   public virtual ICollection<Room>? Rooms { get; set; }
 
 }
